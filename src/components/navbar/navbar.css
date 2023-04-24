@@ -1,0 +1,10 @@
+.navContainer {
+  height: 100px;
+  background-color: rgb(29, 29, 29);
+}
+
+.navList ul li {
+  display: inline-block;
+  padding: 30px;
+  color: aliceblue;
+}
