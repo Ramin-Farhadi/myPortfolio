@@ -8,3 +8,7 @@
   padding: 30px;
   color: aliceblue;
 }
+
+.navList ul {
+  margin-top: 0px;
+}

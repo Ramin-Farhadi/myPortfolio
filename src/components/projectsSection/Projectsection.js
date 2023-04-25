@@ -1,14 +1,14 @@
 import "./projectSection.css";
 import Grid from "@mui/material/Grid"; // Grid version 1
-import Project from "./Project";
+import ProjectBar from "./ProjectBar";
 
-const ProjectSection = () => {
+const ProjectSection = ({ projectHandler }) => {
   return (
     <div className="projSecContainer">
       <div className="projSectionTitle">
         <h2>PROJECTS</h2>
       </div>
-      <Project />
+      <ProjectBar projectHandler={projectHandler} />
     </div>
   );
 };
