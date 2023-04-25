@@ -1,3 +1,11 @@
+@font-face {
+  font-family: BebasNeue-Regular;
+  src: url(./fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+  font-family: Fjalla;
+  src: url(./fonts/FjallaOne-Regular.ttf);
+}
 .App {
   text-align: center;
 }
