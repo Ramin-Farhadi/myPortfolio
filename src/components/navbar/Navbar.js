@@ -7,7 +7,7 @@ const Navbar = () => {
       className="navContainer"
     >
       <Box className="navItem">
-        <a href="/files/resume.pdf" download="resume.pdf">
+        <a href="/resume.pdf" download="resume.pdf">
           Resume
         </a>
       </Box>

@@ -5,23 +5,28 @@ const Summaries = () => {
   return (
     <div class="summaryContainer">
       <Grid container spacing={2}>
-        <Grid xs={8}>
+        <Grid md={8}>
           <h1 id="sumTitle">I'm Ramin Farhadi</h1>
           <h2 id="subTitle">A Frontend Developer & UX UI Designer</h2>
         </Grid>
-        <Grid xs={4}>
-          <img
-            id="profilePic"
-            src={require("./aws-certified-developer-associate.png")}
-            alt="badge"
-          />
+        <Grid md={4}>
+          <a
+            href="https://www.credly.com/badges/e53ff0de-1778-4993-84dc-abe6f46676ec"
+            target="_blank"
+          >
+            <img
+              id="profilePic"
+              src={require("./aws-certified-developer-associate.png")}
+              alt="badge"
+            />
+          </a>
           {/* <img
             id="profilePic"
             src={require("./profilePic.jpg")}
             alt="profile"
           /> */}
         </Grid>
-        <Grid xs={12}>
+        <Grid md={12}>
           <p>
             With 4 years of experience, a master's degree in computer science,
             and a bachelor's degree in architecture, I recently earned an AWS

@@ -13,7 +13,7 @@ const ProjectBar = ({ projectHandler, guide }) => {
     <>
       <Grid container alignItems="center" justifyContent="center" spacing={2}>
         {projectObject.map((eachProj) => (
-          <Grid key={eachProj.projectName} xs={2}>
+          <Grid key={eachProj.projectName} xs={6} md={2}>
             <span
               className="circle"
               onClick={() => setBtnsID(eachProj.projectName)}

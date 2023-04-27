@@ -4,6 +4,15 @@
   height: 200px;
   background-color: rgb(29, 29, 29);
 }
+
+@media screen and (max-width: 900px) {
+  .projSecContainer {
+    height: 470px;
+  }
+  .guide {
+    display: none;
+  }
+}
 .guide {
   background-color: #274472;
   border-radius: 10px 100px / 120px;
@@ -14,12 +23,12 @@
   color: aliceblue;
   font-size: 2rem;
   font-family: BebasNeue;
-  padding: 25px;
+  padding: 40px;
 }
 
 .projSectionTitle {
   top: -50px;
-  left: 220px;
+  left: 10%;
   position: absolute;
   font-family: Fjalla;
 }

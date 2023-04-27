@@ -4,9 +4,9 @@ const UxUi = () => {
   return (
     <div>
       <Grid container spacing={2} mt={5}>
-        <Grid xs={2}></Grid>
+        <Grid xs={0} md={0} lg={2}></Grid>
 
-        <Grid xs={2}>
+        <Grid xs={12} md={6} lg={2}>
           <a href="https://www.behance.net/gallery/157821763/Network-Porch">
             <img
               className="uxUiThaumb"
@@ -21,7 +21,7 @@ const UxUi = () => {
             </div>
           </a>
         </Grid>
-        <Grid xs={2}>
+        <Grid xs={12} md={6} lg={2}>
           <a href="https://www.behance.net/gallery/157413295/Email-Marketing-mobile-template-Womans-rights-funding">
             <img
               className="uxUiThaumb"
@@ -39,7 +39,7 @@ const UxUi = () => {
             </div>
           </a>
         </Grid>
-        <Grid xs={2}>
+        <Grid xs={12} md={6} lg={2}>
           <a href="https://www.behance.net/gallery/157331011/Garage">
             <img
               className="uxUiThaumb"
@@ -58,7 +58,7 @@ const UxUi = () => {
             </div>
           </a>
         </Grid>
-        <Grid xs={2}>
+        <Grid xs={12} md={6} lg={2}>
           <a href="https://www.behance.net/gallery/159488147/Garage-storyboard">
             <img
               className="uxUiThaumb"
@@ -75,7 +75,7 @@ const UxUi = () => {
           </a>
         </Grid>
 
-        <Grid xs={2}></Grid>
+        <Grid xs={0} md={0} lg={2}></Grid>
       </Grid>
     </div>
   );

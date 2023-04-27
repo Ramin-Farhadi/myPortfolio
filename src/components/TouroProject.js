@@ -6,19 +6,19 @@ const TouroProject = () => {
     <div className="wrapper">
       <div className="TouroBar">
         <Grid container spacing={2}>
-          <Grid xs={2}></Grid>
-          <Grid xs={2}>
+          <Grid xs={0} lg={2}></Grid>
+          <Grid xs={12} lg={2}>
             {" "}
             <img
               src={require("./img/Touro.jpg")}
               style={{
-                width: "300px",
+                width: "100%",
                 backgroundSize: "cover",
                 objectFit: "cover",
               }}
             />
           </Grid>
-          <Grid xs={6}>
+          <Grid xs={12} lg={6}>
             <h3>Touro Homepage</h3>
             <p>
               I redesigned and developed the Touro University homepage, while
@@ -39,26 +39,26 @@ const TouroProject = () => {
               justifyContent={"flex-end"}
               alignItems={"flex-end"}
             >
-              <a href="https://gst.touro.edu">
+              <a href="https://gst.touro.edu" target="_blank">
                 <Button variant="contained" sx={{ height: "50px" }}>
                   See the Project LIVE!
                 </Button>{" "}
               </a>
             </Box>
           </Grid>
-          <Grid xs={2}></Grid>
+          <Grid xs={0} lg={2}></Grid>
         </Grid>
       </div>
       <div className="TouroBar">
         <Grid container spacing={2}>
-          <Grid xs={2}></Grid>
-          <Grid xs={2}>
+          <Grid xs={0} lg={2}></Grid>
+          <Grid xs={12} lg={2}>
             <img
               src={require("./img/670x419-O-que-e-Landing-Page-e-como-criar-uma.png")}
-              style={{ width: "300px", height: "200px" }}
+              style={{ width: "100%" }}
             />
           </Grid>
-          <Grid xs={6}>
+          <Grid xs={12} lg={6}>
             <h3>Landing Pages for marketing</h3>
             <p>
               I have designed and developed numerous landing pages for Touro
@@ -84,27 +84,24 @@ const TouroProject = () => {
               justifyContent={"flex-end"}
               alignItems={"flex-end"}
             >
-              <a href="https://gst.touro.edu/sem/wmm/">
+              <a href="https://gst.touro.edu/sem/wmm/" target="_blank">
                 <Button variant="contained" sx={{ height: "50px" }}>
                   See the Project LIVE!
                 </Button>{" "}
               </a>
             </Box>
           </Grid>
-          <Grid xs={2}></Grid>
+          <Grid xs={0} lg={2}></Grid>
         </Grid>
       </div>
       <div className="TouroBar">
         <Grid container spacing={2}>
-          <Grid xs={2}></Grid>
-          <Grid xs={2}>
+          <Grid xs={0} lg={2}></Grid>
+          <Grid xs={12} lg={2}>
             {" "}
-            <img
-              src={require("./img/blog.jpg")}
-              style={{ width: "300px", height: "200px" }}
-            />
+            <img src={require("./img/blog.jpg")} style={{ width: "100%" }} />
           </Grid>
-          <Grid xs={6}>
+          <Grid xs={12} lg={6}>
             <h3>Blog page from scratch</h3>
             <p>
               When I first started working at Touro, I noticed that the
@@ -129,14 +126,14 @@ const TouroProject = () => {
               alignItems={"flex-end"}
             >
               {" "}
-              <a href="https://gst.touro.edu/Blogs/">
+              <a href="https://gst.touro.edu/Blogs/" target="_blank">
                 <Button variant="contained" sx={{ height: "50px" }}>
                   See the Project LIVE!
                 </Button>
               </a>
             </Box>
           </Grid>
-          <Grid xs={2}></Grid>
+          <Grid xs={0} lg={2}></Grid>
         </Grid>
       </div>
     </div>
