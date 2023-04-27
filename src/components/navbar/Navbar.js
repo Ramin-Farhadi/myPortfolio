@@ -1,16 +1,22 @@
 import "./navbar.css";
+import { Box } from "@mui/material";
 const Navbar = () => {
   return (
-    <div class="navContainer">
-      <div className="navList">
-        <ul>
-          <li>Summary</li>
-          <li>Projects</li>
-          <li>Skills</li>
-          <li>Contact me</li>
-        </ul>
-      </div>
-    </div>
+    <Box
+      sx={{ display: "flex", justifyContent: "flex-end" }}
+      className="navContainer"
+    >
+      <Box className="navItem">
+        <a href="/files/resume.pdf" download="resume.pdf">
+          Resume
+        </a>
+      </Box>
+      <Box className="navItem">
+        <a href="mailto:farhadiramin91@gmail.com">
+          Email: Farhadiramin91@gmail.com
+        </a>
+      </Box>
+    </Box>
   );
 };
 export default Navbar;

@@ -5,10 +5,16 @@
   background-color: rgb(29, 29, 29);
 }
 .guide {
+  background-color: #274472;
+  border-radius: 10px 100px / 120px;
+  width: 50%;
+  left: 25%;
   position: absolute;
-  top: 10px;
-  left: 30%;
-  transform: scale(0.5);
+  top: 260px;
+  color: aliceblue;
+  font-size: 2rem;
+  font-family: BebasNeue;
+  padding: 25px;
 }
 
 .projSectionTitle {
@@ -28,6 +34,11 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.circle:hover {
+  background-color: #616161;
+  transition: 0.2s;
 }
 
 .circle-lable {

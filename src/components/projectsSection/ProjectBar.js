@@ -19,14 +19,16 @@ const ProjectBar = ({ projectHandler, guide }) => {
               onClick={() => setBtnsID(eachProj.projectName)}
               style={
                 btnsID === eachProj.projectName
-                  ? { backgroundColor: "yellow" }
+                  ? { backgroundColor: "#ffeb3b" }
                   : {}
               }
             ></span>
             <br />
             <span
               className="circle-lable"
-              style={btnsID === eachProj.projectName ? { color: "purple" } : {}}
+              style={
+                btnsID === eachProj.projectName ? { color: "#3d5afe" } : {}
+              }
             >
               {eachProj.projectName}
             </span>

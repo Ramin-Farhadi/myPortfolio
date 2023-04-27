@@ -34,3 +34,8 @@
   cursor: pointer;
   transform: translateY(-10px);
 }
+
+.summaryContainer p {
+  text-align: left;
+  font-size: 1.15rem;
+}

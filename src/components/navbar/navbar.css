@@ -1,14 +1,17 @@
 .navContainer {
-  height: 100px;
+  height: 60px;
   background-color: rgb(29, 29, 29);
 }
 
-.navList ul li {
-  display: inline-block;
-  padding: 30px;
+.navItem {
+  padding: 20px;
+}
+
+.navItem a {
   color: aliceblue;
 }
 
-.navList ul {
-  margin-top: 0px;
+.navItem a:hover {
+  color: rgb(255, 235, 59);
+  transition: 0.3s;
 }

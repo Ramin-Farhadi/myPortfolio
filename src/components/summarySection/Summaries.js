@@ -23,13 +23,13 @@ const Summaries = () => {
         </Grid>
         <Grid xs={12}>
           <p>
-            with 4 years of experience, a master's degrees in computer science
-            and a bachelor's degree in architecture. Recently earned an AWS
+            With 4 years of experience, a master's degree in computer science,
+            and a bachelor's degree in architecture, I recently earned an AWS
             certification (AWS Certified Developer - Associate). I am passionate
-            about creating top-notch user experiences and using my technical
-            skills to drive innovation. I am committed to staying up-to-date
-            with the latest technologies and contributing to the growth of the
-            industry.
+            about creating top-notch user experiences and leveraging my
+            technical skills to drive innovation. I am committed to staying
+            up-to-date with the latest technologies and contributing to the
+            growth of the industry.
           </p>
         </Grid>
       </Grid>

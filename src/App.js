@@ -7,6 +7,7 @@ import Weather from "./components/Weather";
 import Youtube from "./Youtube";
 import Cal from "./Cal";
 import TouroProject from "./components/TouroProject";
+import UxUi from "./components/components/uxui/UxUiProject";
 
 function App() {
   const [idDetector, setIdDetector] = useState("");
@@ -23,6 +24,8 @@ function App() {
         <Cal />
       ) : idDetector === "Touro University Website" ? (
         <TouroProject />
+      ) : idDetector === "UX UI Design" ? (
+        <UxUi />
       ) : (
         ""
       )}
