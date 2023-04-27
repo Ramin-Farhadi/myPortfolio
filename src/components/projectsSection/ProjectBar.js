@@ -3,14 +3,15 @@ import projectObject from "./projectObject";
 import "./projectSection.css";
 import { useEffect, useState } from "react";
 
-const ProjectBar = ({ projectHandler }) => {
+const ProjectBar = ({ projectHandler, guide }) => {
   const [btnsID, setBtnsID] = useState("");
   useEffect(() => {
     projectHandler(btnsID);
+    btnsID && guide(true);
   }, [btnsID]);
   return (
     <>
-      <Grid container spacing={2}>
+      <Grid container alignItems="center" justifyContent="center" spacing={2}>
         {projectObject.map((eachProj) => (
           <Grid key={eachProj.projectName} xs={2}>
             <span
@@ -22,7 +23,13 @@ const ProjectBar = ({ projectHandler }) => {
                   : {}
               }
             ></span>
-            <span className="circle-lable">{eachProj.projectName}</span>
+            <br />
+            <span
+              className="circle-lable"
+              style={btnsID === eachProj.projectName ? { color: "purple" } : {}}
+            >
+              {eachProj.projectName}
+            </span>
           </Grid>
         ))}
       </Grid>

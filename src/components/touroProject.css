@@ -1,0 +1,35 @@
+.TouroBar {
+  padding-top: 50px;
+  height: 200px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+.TouroBar p {
+  text-align: left;
+  padding: 0px 30px;
+}
+
+.TouroBar h3 {
+  text-align: left;
+  padding: 0px 30px;
+}
+
+.TouroBar img {
+  border: 0.5px solid rgb(195, 195, 195);
+  border-radius: 15px;
+  margin-top: 25px;
+}
+
+.TouroBar a {
+  text-decoration: none;
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.TouroBar h3 {
+  font-family: Fjalla;
+  font-size: 1.5rem;
+}

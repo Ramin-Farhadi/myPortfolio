@@ -1,26 +1,23 @@
 const projectObject = [
   {
-    projectName: "weatherApp",
+    projectName: "Touro University Website",
     label: "http://something.com",
   },
   {
-    projectName: "YoutubeSimulator",
+    projectName: "WeatherApp (API CALL)",
     label: "http://something.com",
   },
   {
-    projectName: "TouroTalks",
+    projectName: "Youtube Simulator (API CALL)",
     label: "http://something.com",
   },
-  {
-    projectName: "Touro Homepage",
-    label: "http://something.com",
-  },
+  ,
   {
     projectName: "Digital calculator",
     label: "http://something.com",
   },
   {
-    projectName: "somethingelse",
+    projectName: "UX UI Design",
     label: "http://something.com",
   },
 ];
