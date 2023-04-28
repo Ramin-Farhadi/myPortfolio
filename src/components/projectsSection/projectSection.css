@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   height: 200px;
-  background-color: rgb(29, 29, 29);
+  background-color: #050d12;
 }
 
 @media screen and (max-width: 900px) {
@@ -14,7 +14,7 @@
   }
 }
 .guide {
-  background-color: #274472;
+  background-color: #050d12;
   border-radius: 10px 100px / 120px;
   width: 50%;
   left: 25%;
