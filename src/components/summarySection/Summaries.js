@@ -27,7 +27,7 @@ const Summaries = () => {
           /> */}
         </Grid>
         <Grid md={12}>
-          <p>
+          <p style={{ color: "#e3f2fd" }}>
             With 4 years of experience, a master's degree in computer science,
             and a bachelor's degree in architecture, I recently earned an AWS
             certification (AWS Certified Developer - Associate). I am passionate

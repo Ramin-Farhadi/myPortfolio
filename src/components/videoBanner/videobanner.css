@@ -1,0 +1,9 @@
+@media screen and (max-width: 790px) {
+  .vidContainer {
+    height: auto !important;
+  }
+  .vid {
+    height: auto !important;
+    width: auto !important;
+  }
+}

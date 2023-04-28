@@ -11,7 +11,7 @@ const ProjectSection = ({ projectHandler }) => {
       {!guide && <NoticeSec />}
 
       <div className="projSectionTitle">
-        <h2>PROJECTS</h2>
+        <h2 style={{ color: "#e3f2fd" }}>PROJECTS</h2>
       </div>
       <ProjectBar projectHandler={projectHandler} guide={setGuide} />
     </div>

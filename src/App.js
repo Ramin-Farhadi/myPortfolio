@@ -8,12 +8,14 @@ import Youtube from "./Youtube";
 import Cal from "./Cal";
 import TouroProject from "./components/TouroProject";
 import UxUi from "./components/components/uxui/UxUiProject";
+import VideoBanner from "./components/videoBanner/VideoBanner";
 
 function App() {
   const [idDetector, setIdDetector] = useState("");
   return (
     <div className="App">
       <Navbar></Navbar>
+      <VideoBanner />
       <Summaries></Summaries>
       <ProjectSection projectHandler={setIdDetector} />
       {idDetector === "WeatherApp (API CALL)" ? (

@@ -14,14 +14,13 @@ const projectObject = [
     label: "http://something.com",
   },
   {
+    projectName: "WeatherApp (API CALL)",
+    label: "http://something.com",
+  },
+  {
     projectName: "Digital calculator",
     label: "http://something.com",
   },
-
-  // {
-  //   projectName: "WeatherApp (API CALL)",
-  //   label: "http://something.com",
-  // },
 ];
 
 export default projectObject;
