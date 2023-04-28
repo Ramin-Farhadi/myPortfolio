@@ -7,7 +7,11 @@ const Navbar = () => {
       className="navContainer"
     >
       <Box className="navItem">
-        <a href="/resume.pdf" download="resume.pdf">
+        <a
+          href={require("./resume.pdf")}
+          target="_blank"
+          download={"Ramin Farhadi Resume"}
+        >
           Resume
         </a>
       </Box>
