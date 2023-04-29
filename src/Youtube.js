@@ -22,7 +22,7 @@ function App() {
           <Grid2 xs={12} sx={{ mt: "50px" }}>
             <Search apiHandler={apiHandler} />
           </Grid2>
-          <Grid2 xs={7}>
+          <Grid2 xs={12} md={7}>
             {/* Where player loads */}
             <Player
               videoId={
@@ -34,7 +34,7 @@ function App() {
               }
             />
           </Grid2>
-          <Grid2 xs={5}>
+          <Grid2 xs={12} md={5}>
             <VideoItems
               items={youTubeSearchListRes}
               videoIdHandler={setVideoId}
