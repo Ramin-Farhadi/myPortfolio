@@ -18,7 +18,16 @@ const ProjectBar = ({ projectHandler, guide }) => {
           <Grid key={eachProj.projectName} xs={6} md={2}>
             <span
               className="circle"
-              onClick={() => setBtnsID(eachProj.projectName)}
+              onClick={() => {
+                setBtnsID(eachProj.projectName);
+                setTimeout(() => {
+                  window.scrollTo({
+                    left: 0,
+                    top: document.body.scrollHeight,
+                    behavior: "smooth",
+                  });
+                }, 1);
+              }}
               style={
                 btnsID === eachProj.projectName
                   ? {
