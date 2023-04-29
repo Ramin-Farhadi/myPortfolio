@@ -1,6 +1,8 @@
 import Grid from "@mui/material/Grid"; // Grid version 1
 import projectObject from "./projectObject";
 import "./projectSection.css";
+import image from "./button.png";
+
 import { useEffect, useState } from "react";
 
 const ProjectBar = ({ projectHandler, guide }) => {
@@ -19,8 +21,19 @@ const ProjectBar = ({ projectHandler, guide }) => {
               onClick={() => setBtnsID(eachProj.projectName)}
               style={
                 btnsID === eachProj.projectName
-                  ? { backgroundColor: "#ffeb3b" }
-                  : {}
+                  ? {
+                      backgroundColor: "#ff5722",
+                      backgroundImage: `url(${image})`,
+                      backgroundSize: "cover",
+                      backgroundRepeat: "no-repeat",
+                      backgroundPosition: "center",
+                    }
+                  : {
+                      backgroundImage: `url(${image})`,
+                      backgroundSize: "cover",
+                      backgroundRepeat: "no-repeat",
+                      backgroundPosition: "center",
+                    }
               }
             ></span>
             <br />
