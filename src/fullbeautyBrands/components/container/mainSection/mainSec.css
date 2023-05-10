@@ -1,0 +1,30 @@
+hr {
+  border: #ddd solid 1px;
+}
+
+@media only screen and (max-width: 899px) {
+  .MainSecContainer {
+    position: absolute;
+    top: 1720px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .MainSecContainer {
+    position: absolute;
+    top: 2100px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .MainSecContainer {
+    position: absolute;
+    top: 2170px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .MainSecContainer {
+    position: absolute;
+    top: 2350px;
+  }
+}

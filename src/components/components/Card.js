@@ -6,7 +6,7 @@ import Search from "./Search";
 
 function Card({ data, ad, err }) {
   return (
-    <div className="card" style={{ marginBottom: "50px" }}>
+    <div className="cardWeather" style={{ marginBottom: "50px" }}>
       <Search ad={ad} err={err} />
       <Banner data={data} />
       <SmallSec data={data} />

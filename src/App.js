@@ -9,6 +9,7 @@ import Cal from "./Cal";
 import TouroProject from "./components/TouroProject";
 import UxUi from "./components/components/uxui/UxUiProject";
 import VideoBanner from "./components/videoBanner/VideoBanner";
+import Fbbrands from "./fullbeautyBrands/FbbBrands";
 
 function App() {
   const [idDetector, setIdDetector] = useState("");
@@ -20,6 +21,8 @@ function App() {
       <ProjectSection projectHandler={setIdDetector} />
       {idDetector === "WeatherApp (API CALL)" ? (
         <Weather />
+      ) : idDetector === "FullBeauty Brands" ? (
+        <Fbbrands />
       ) : idDetector === "Youtube Simulator (API CALL)" ? (
         <Youtube />
       ) : idDetector === "Digital calculator" ? (
