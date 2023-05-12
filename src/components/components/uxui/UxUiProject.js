@@ -3,15 +3,17 @@ import "./uxUi.css";
 const UxUi = () => {
   return (
     <div>
-      <Grid container spacing={2} mt={5}>
+      <Grid className="projectsSecContainer" container spacing={5} mt={5}>
         <Grid xs={0} md={0} lg={2}></Grid>
 
-        <Grid xs={12} md={6} lg={2}>
+        <Grid p={1} xs={12} md={6} lg={2}>
           <a href="https://www.behance.net/gallery/157821763/Network-Porch">
-            <img
-              className="uxUiThaumb"
-              src={require("../../img/uxui/networkPorch.png")}
-            />
+            <div className="uxUiImageArea">
+              <img
+                className="uxUiThaumb"
+                src={require("../../img/uxui/networkPorch.png")}
+              />
+            </div>
             <div className="uxUiDetails">
               <h3>Network Porch</h3>
               <p>
@@ -21,12 +23,14 @@ const UxUi = () => {
             </div>
           </a>
         </Grid>
-        <Grid xs={12} md={6} lg={2}>
+        <Grid p={1} xs={12} md={6} lg={2}>
           <a href="https://www.behance.net/gallery/157413295/Email-Marketing-mobile-template-Womans-rights-funding">
-            <img
-              className="uxUiThaumb"
-              src={require("../../img/uxui/womanOfTheWorld.png")}
-            />
+            <div className="uxUiImageArea">
+              <img
+                className="uxUiThaumb"
+                src={require("../../img/uxui/womanOfTheWorld.png")}
+              />
+            </div>
             <div className="uxUiDetails">
               <h3>Woman of the World</h3>
               <p>
@@ -39,12 +43,14 @@ const UxUi = () => {
             </div>
           </a>
         </Grid>
-        <Grid xs={12} md={6} lg={2}>
+        <Grid p={1} xs={12} md={6} lg={2}>
           <a href="https://www.behance.net/gallery/157331011/Garage">
-            <img
-              className="uxUiThaumb"
-              src={require("../../img/uxui/Garage.png")}
-            />
+            <div className="uxUiImageArea">
+              <img
+                className="uxUiThaumb"
+                src={require("../../img/uxui/Garage.png")}
+              />
+            </div>
             <div className="uxUiDetails">
               <h3>Garage</h3>
               <p>
@@ -58,12 +64,14 @@ const UxUi = () => {
             </div>
           </a>
         </Grid>
-        <Grid xs={12} md={6} lg={2}>
+        <Grid p={1} xs={12} md={6} lg={2}>
           <a href="https://www.behance.net/gallery/159488147/Garage-storyboard">
-            <img
-              className="uxUiThaumb"
-              src={require("../../img/uxui/garageStory.png")}
-            />
+            <div className="uxUiImageArea">
+              <img
+                className="uxUiThaumb"
+                src={require("../../img/uxui/garageStory.png")}
+              />
+            </div>
             <div className="uxUiDetails">
               <h3>Garage Story telling</h3>
               <p>

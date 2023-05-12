@@ -1,8 +1,6 @@
 const NoticeSec = () => {
   return (
-    <div className="guide">
-      Click the Gray circles to see my projects. Each circle = 1 project.
-    </div>
+    <div className="guide">Click on each gray button to view the projects.</div>
   );
 };
 export default NoticeSec;

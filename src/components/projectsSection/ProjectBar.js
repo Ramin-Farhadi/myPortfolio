@@ -31,7 +31,7 @@ const ProjectBar = ({ projectHandler, guide }) => {
               style={
                 btnsID === eachProj.projectName
                   ? {
-                      backgroundColor: "#ff5722",
+                      backgroundColor: "#4CAF50",
                       backgroundImage: `url(${image})`,
                       backgroundSize: "cover",
                       backgroundRepeat: "no-repeat",

@@ -1,11 +1,34 @@
-.uxUiThaumb {
-  width: 300px;
+.uxUiImageArea {
+  width: 100%;
   height: 230px;
+}
+.uxUiThaumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* height: 230px; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media screen and (max-width: 1200px) {
+  .projectsSecContainer {
+    margin-left: 0px;
+    padding: 0px 50px;
+  }
 }
 
 .uxUiDetails {
-  padding: 10px;
+  text-align: left;
+  padding: 10px 10px;
+  color: black;
+}
+
+.uxUiDetails p {
+  text-align: justify;
+  text-justify: inter-cluster;
+}
+
+.uxUiDetails h3 {
+  font-size: 1.5rem;
 }
 
 a {

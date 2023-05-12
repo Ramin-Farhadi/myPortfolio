@@ -21,15 +21,13 @@ const TouroProject = () => {
           <Grid xs={12} lg={6}>
             <h3>Touro Homepage</h3>
             <p>
-              I redesigned and developed the Touro University homepage, while
-              keeping in mind the institution's desire to reflect its academic
-              environment and culture. The new design successfully maintains
-              this tradition while also enhancing the user experience with
-              modern and intuitive features. As a result, the Touro University
-              homepage saw a significant increase in user engagement, with a 30%
-              boost in traffic over a period of 6 months. This is a testament to
-              the effectiveness of the redesign and development process, and I
-              am thrilled to have played a role in the success of this project.{" "}
+              I successfully redesigned and developed the Touro University
+              homepage, incorporating their academic environment and culture.
+              The modern and intuitive features improved the user experience,
+              resulting in a notable 30% increase in website traffic over 6
+              months. This project's success demonstrates the effectiveness of
+              my redesign and development skills, and I am proud to have
+              contributed to its achievement.{" "}
             </p>
 
             <Box
@@ -61,20 +59,13 @@ const TouroProject = () => {
           <Grid xs={12} lg={6}>
             <h3>Landing Pages for marketing</h3>
             <p>
-              I have designed and developed numerous landing pages for Touro
-              University's marketing department to facilitate their Google
-              advertising campaigns. Thanks to my expertise in creating visually
-              appealing and user-friendly designs, the university has become
-              increasingly popular online and has received a surge of
-              applicants. Working closely with the backend team, I helped set up
-              a form to collect data, which was then seamlessly passed to Touro
-              GST's database. We have been running this campaign for almost 2
-              years, and with my refreshing design ideas, we were able to
-              dramatically decrease the bounce rate and significantly increase
-              the rate of submissions. My contribution to this project played a
-              critical role in its success, and I am proud of the impact my work
-              has had on Touro University's online presence and enrollment
-              numbers.
+              I designed and developed landing pages for Touro University's
+              marketing campaigns, resulting in increased online popularity and
+              applicant numbers. Collaborating with the backend team, I
+              implemented a seamless data collection form, reducing bounce rates
+              and boosting submission rates. My work played a critical role in
+              enhancing Touro University's online presence and enrollment
+              figures.
             </p>
 
             <Box
@@ -104,19 +95,12 @@ const TouroProject = () => {
           <Grid xs={12} lg={6}>
             <h3>Blog page from scratch</h3>
             <p>
-              When I first started working at Touro, I noticed that the
-              university was not using its main domain to publish blogs.
-              Instead, they were renting space on Hubspot and then linking to
-              the blog posts on the main Touro website. This approach was
-              detrimental to Touro's SEO ranking on Google, and the university
-              was missing out on valuable traffic. To address this issue, I
-              created a new blog section on the Touro website from scratch,
-              including all of the subpages necessary for effective blogging. In
-              addition, I created a user-friendly system that anyone, even
-              without technical knowledge, could use to publish blog posts. This
-              allowed Touro to take control of their blog content and improve
-              their SEO ranking, resulting in increased visibility and
-              engagement.
+              I improved Touro University's blog strategy by creating a new blog
+              section on their website. This helped them take control of their
+              blog content and boosted their visibility on Google. I also made
+              it easy for anyone to publish blog posts, even without technical
+              knowledge. As a result, Touro experienced increased traffic and
+              engagement on their blog.
             </p>
             <Box
               mr={5}
