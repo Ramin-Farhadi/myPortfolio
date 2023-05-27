@@ -10,7 +10,7 @@ const TouroProject = () => {
           <Grid xs={12} lg={2}>
             {" "}
             <img
-              src={require("./img/Touro.jpg")}
+              src={require("../../img/Touro.jpg")}
               style={{
                 width: "100%",
                 backgroundSize: "cover",
@@ -52,7 +52,7 @@ const TouroProject = () => {
           <Grid xs={0} lg={2}></Grid>
           <Grid xs={12} lg={2}>
             <img
-              src={require("./img/670x419-O-que-e-Landing-Page-e-como-criar-uma.png")}
+              src={require("../../img/670x419-O-que-e-Landing-Page-e-como-criar-uma.png")}
               style={{ width: "100%" }}
             />
           </Grid>
@@ -90,7 +90,10 @@ const TouroProject = () => {
           <Grid xs={0} lg={2}></Grid>
           <Grid xs={12} lg={2}>
             {" "}
-            <img src={require("./img/blog.jpg")} style={{ width: "100%" }} />
+            <img
+              src={require("../../img/blog.jpg")}
+              style={{ width: "100%" }}
+            />
           </Grid>
           <Grid xs={12} lg={6}>
             <h3>Blog page from scratch</h3>

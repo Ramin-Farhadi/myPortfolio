@@ -3,13 +3,13 @@ import "./App.css";
 import Summaries from "./components/summarySection/Summaries";
 import Navbar from "./components/navbar/Navbar";
 import ProjectSection from "./components/projectsSection/Projectsection";
-import Weather from "./components/Weather";
-import Youtube from "./Youtube";
-import Cal from "./Cal";
-import TouroProject from "./components/TouroProject";
-import UxUi from "./components/components/uxui/UxUiProject";
-import VideoBanner from "./components/videoBanner/VideoBanner";
-import Fbbrands from "./fullbeautyBrands/FbbBrands";
+import Weather from "./components/projectsSection/weatherComponent/Weather";
+import Youtube from "./components/projectsSection/YoutubeComponents/Youtube";
+import Cal from "./components/projectsSection/CalComponents/Cal";
+import TouroProject from "./components/projectsSection/touroComponent/TouroProject";
+import UxUi from "./components/projectsSection/uxuiComponent/UxUiProject";
+import VideoBanner from "./components/summarySection/videoBanner/VideoBanner";
+import Fbbrands from "./components/projectsSection/fullBeautyBrandsComponent/FbbBrands";
 
 function App() {
   const [idDetector, setIdDetector] = useState("");

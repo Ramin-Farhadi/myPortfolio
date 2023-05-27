@@ -1,7 +1,6 @@
 import "./projectSection.css";
-import Grid from "@mui/material/Grid"; // Grid version 1
 import ProjectBar from "./ProjectBar";
-import NoticeSec from "../../components/NoticeSec";
+import NoticeSec from "./noticeComponent/NoticeSec";
 import { useState } from "react";
 
 const ProjectSection = ({ projectHandler }) => {

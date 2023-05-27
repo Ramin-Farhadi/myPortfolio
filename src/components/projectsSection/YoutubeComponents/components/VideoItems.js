@@ -1,7 +1,7 @@
 import React from "react";
 import Grid2 from "@mui/material/Unstable_Grid2/Grid2";
 import { Box } from "@mui/system";
-import "./videoItems.css";
+import "./style/videoItems.css";
 
 const VideoItems = ({ items, videoIdHandler }) => {
   const generateId = (videoId) => {

@@ -1,5 +1,5 @@
 import "./App.css";
-import "./components/mainNav/MainNav";
+import "./components/mainNav/mainNav.css";
 import MainNav from "./components/mainNav/MainNav";
 import StickyNav from "./components/stickyNav/StickNav";
 import ContainerSection from "./components/container/ContainerSection";
@@ -7,6 +7,7 @@ import SideSection from "./components/container/sideSection/SideSection";
 import MainSection from "./components/container/mainSection/MainSection";
 import { useState } from "react";
 import EditShippingAddress from "./components/container/editShippingAddressSec/EditShippingAddress";
+
 function App() {
   const [allItemSubTotal, setAllItemSubTotal] = useState(0);
   const [addressEditShowHide, setAddressEditShowHide] = useState(false);

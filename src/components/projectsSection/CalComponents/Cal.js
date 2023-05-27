@@ -1,5 +1,5 @@
 import "./Calcss/general.css";
-import Calculator from "./CalComponents/Calculator";
+import Calculator from "./Calculator";
 function App() {
   return (
     <div className="container">

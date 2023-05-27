@@ -1,9 +1,9 @@
 import { useState } from "react";
 
-import Search from "./YoutubeComponents/Search";
+import Search from "./components/Search";
 import Grid2 from "@mui/material/Unstable_Grid2/Grid2";
-import VideoItems from "./YoutubeComponents/VideoItems";
-import Player from "./YoutubeComponents/Player";
+import VideoItems from "./components/VideoItems";
+import Player from "./components/Player";
 
 function App() {
   const [youTubeSearchListRes, setYouTubeSearchListRes] = useState("");
