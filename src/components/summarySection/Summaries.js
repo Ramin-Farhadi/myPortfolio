@@ -7,7 +7,7 @@ const Summaries = () => {
       <Grid container spacing={2}>
         <Grid md={8}>
           <h1 id="sumTitle">I'm Ramin Farhadi</h1>
-          <h2 id="subTitle">A Frontend Developer & UX UI Designer</h2>
+          <h2 id="subTitle">A Full Stack Developer & UX UI Designer</h2>
         </Grid>
         <Grid md={4}>
           <a
@@ -28,7 +28,7 @@ const Summaries = () => {
         </Grid>
         <Grid md={12}>
           <p style={{ color: "#e3f2fd" }}>
-            With 4 years of experience, a master's degree in computer science,
+            With 5 years of experience, a master's degree in computer science,
             and a bachelor's degree in architecture, I recently earned an AWS
             certification (AWS Certified Developer - Associate). I am passionate
             about creating top-notch user experiences and leveraging my
