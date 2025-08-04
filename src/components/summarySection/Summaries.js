@@ -3,13 +3,13 @@ import Grid from "@mui/material/Grid"; // Grid version 1
 import "./summary.css";
 const Summaries = () => {
   return (
-    <div class="summaryContainer">
+    <div className="summaryContainer">
       <Grid container spacing={2}>
-        <Grid md={8}>
+        <Grid item md={8}>
           <h1 id="sumTitle">I'm Ramin Farhadi</h1>
           <h2 id="subTitle">A Full Stack Developer & UX UI Designer</h2>
         </Grid>
-        <Grid md={4}>
+        <Grid item md={4}>
           <a
             href="https://www.credly.com/badges/e53ff0de-1778-4993-84dc-abe6f46676ec"
             target="_blank"
@@ -26,7 +26,7 @@ const Summaries = () => {
             alt="profile"
           /> */}
         </Grid>
-        <Grid md={12}>
+        <Grid item md={12}>
           <p style={{ color: "#e3f2fd" }}>
             With 5 years of experience, a master's degree in computer science,
             and a bachelor's degree in architecture, I recently earned an AWS

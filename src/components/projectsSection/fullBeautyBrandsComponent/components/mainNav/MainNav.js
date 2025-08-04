@@ -6,10 +6,10 @@ const MainNav = () => {
       <span id="shipping"></span>
 
       <Grid className="mainNavContainer" container spacing={2}>
-        <Grid xs={1} md={1}></Grid>
-        <Grid xs={10} md={4}>
+        <Grid item xs={1} md={1}></Grid>
+        <Grid item xs={10} md={4}>
           <Grid container spacing={2}>
-            <Grid xs={4}>
+            <Grid item xs={4}>
               <img
                 alt="logo"
                 style={{ paddingLeft: "30%" }}
@@ -17,7 +17,7 @@ const MainNav = () => {
                 src={require("../../images/fblogo.jpg")}
               ></img>
             </Grid>
-            <Grid xs={8}>
+            <Grid item xs={8}>
               <p className="logoText">
                 <span style={{ fontWeight: "500", color: "#9C27B0" }}>
                   FULL
@@ -30,9 +30,9 @@ const MainNav = () => {
             </Grid>
           </Grid>
         </Grid>
-        <Grid xs={0} md={6}></Grid>
-        <Grid xs={2} md={2}></Grid>
-        <Grid xs={0} md={1}></Grid>
+        <Grid item xs={0} md={6}></Grid>
+        <Grid item xs={2} md={2}></Grid>
+        <Grid item xs={0} md={1}></Grid>
       </Grid>
     </div>
   );

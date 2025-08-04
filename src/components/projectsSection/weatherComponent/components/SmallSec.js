@@ -4,11 +4,11 @@ import './css/smallSec.css';
 
 const SmallSec = ({ data }) => {
   //LINE 7 is undefinded needs to be fixed asap.
-  //   console.log(
-  //     data.data.map((val, index) => {
-  //       return val.datetime;
-  //     })
-  //   );
+    // console.log(
+    //   data.data.map((val, index) => {
+    //     return val.datetime;
+    //   })
+    // );
   let strDate = '';
   return (
     <div className="wrapItems">

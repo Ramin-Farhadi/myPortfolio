@@ -15,7 +15,7 @@ const ProjectBar = ({ projectHandler, guide }) => {
     <>
       <Grid container alignItems="center" justifyContent="center" spacing={2}>
         {projectObject.map((eachProj) => (
-          <Grid key={eachProj.projectName} xs={6} md={2}>
+          <Grid item key={eachProj.projectName} xs={6} md={2}>
             <span
               className="circle"
               onClick={() => {

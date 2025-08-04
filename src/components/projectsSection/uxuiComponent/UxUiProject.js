@@ -4,9 +4,9 @@ const UxUi = () => {
   return (
     <div>
       <Grid className="projectsSecContainer" container spacing={5} mt={5}>
-        <Grid xs={0} md={0} lg={2}></Grid>
+        <Grid item xs={0} md={0} lg={2}></Grid>
 
-        <Grid p={1} xs={12} md={6} lg={2}>
+        <Grid item p={1} xs={12} md={6} lg={2}>
           <a href="https://www.behance.net/gallery/157821763/Network-Porch">
             <div className="uxUiImageArea">
               <img
@@ -23,7 +23,7 @@ const UxUi = () => {
             </div>
           </a>
         </Grid>
-        <Grid p={1} xs={12} md={6} lg={2}>
+        <Grid item p={1} xs={12} md={6} lg={2}>
           <a href="https://www.behance.net/gallery/157413295/Email-Marketing-mobile-template-Womans-rights-funding">
             <div className="uxUiImageArea">
               <img
@@ -43,7 +43,7 @@ const UxUi = () => {
             </div>
           </a>
         </Grid>
-        <Grid p={1} xs={12} md={6} lg={2}>
+        <Grid item p={1} xs={12} md={6} lg={2}>
           <a href="https://www.behance.net/gallery/157331011/Garage">
             <div className="uxUiImageArea">
               <img
@@ -64,7 +64,7 @@ const UxUi = () => {
             </div>
           </a>
         </Grid>
-        <Grid p={1} xs={12} md={6} lg={2}>
+        <Grid item p={1} xs={12} md={6} lg={2}>
           <a href="https://www.behance.net/gallery/159488147/Garage-storyboard">
             <div className="uxUiImageArea">
               <img
@@ -83,7 +83,7 @@ const UxUi = () => {
           </a>
         </Grid>
 
-        <Grid xs={0} md={0} lg={2}></Grid>
+        <Grid item xs={0} md={0} lg={2}></Grid>
       </Grid>
     </div>
   );

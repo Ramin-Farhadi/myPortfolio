@@ -6,8 +6,8 @@ const TouroProject = () => {
     <div className="wrapper">
       <div className="TouroBar">
         <Grid container spacing={2}>
-          <Grid xs={0} lg={2}></Grid>
-          <Grid xs={12} lg={2}>
+          <Grid item xs={0} lg={2}></Grid>
+          <Grid item xs={12} lg={2}>
             {" "}
             <img
               src={require("../../img/Touro.jpg")}
@@ -18,7 +18,7 @@ const TouroProject = () => {
               }}
             />
           </Grid>
-          <Grid xs={12} lg={6}>
+          <Grid item xs={12} lg={6}>
             <h3>Touro Homepage</h3>
             <p>
               I successfully redesigned and developed the Touro University
@@ -44,19 +44,19 @@ const TouroProject = () => {
               </a>
             </Box>
           </Grid>
-          <Grid xs={0} lg={2}></Grid>
+          <Grid item xs={0} lg={2}></Grid>
         </Grid>
       </div>
       <div className="TouroBar">
         <Grid container spacing={2}>
-          <Grid xs={0} lg={2}></Grid>
-          <Grid xs={12} lg={2}>
+          <Grid item xs={0} lg={2}></Grid>
+          <Grid item xs={12} lg={2}>
             <img
               src={require("../../img/670x419-O-que-e-Landing-Page-e-como-criar-uma.png")}
               style={{ width: "100%" }}
             />
           </Grid>
-          <Grid xs={12} lg={6}>
+          <Grid item xs={12} lg={6}>
             <h3>Landing Pages for marketing</h3>
             <p>
               I designed and developed landing pages for Touro University's
@@ -82,20 +82,20 @@ const TouroProject = () => {
               </a>
             </Box>
           </Grid>
-          <Grid xs={0} lg={2}></Grid>
+          <Grid item xs={0} lg={2}></Grid>
         </Grid>
       </div>
       <div className="TouroBar">
         <Grid container spacing={2}>
-          <Grid xs={0} lg={2}></Grid>
-          <Grid xs={12} lg={2}>
+          <Grid item xs={0} lg={2}></Grid>
+          <Grid item xs={12} lg={2}>
             {" "}
             <img
               src={require("../../img/blog.jpg")}
               style={{ width: "100%" }}
             />
           </Grid>
-          <Grid xs={12} lg={6}>
+          <Grid item xs={12} lg={6}>
             <h3>Blog page from scratch</h3>
             <p>
               I improved Touro University's blog strategy by creating a new blog
@@ -120,7 +120,7 @@ const TouroProject = () => {
               </a>
             </Box>
           </Grid>
-          <Grid xs={0} lg={2}></Grid>
+          <Grid item xs={0} lg={2}></Grid>
         </Grid>
       </div>
     </div>
