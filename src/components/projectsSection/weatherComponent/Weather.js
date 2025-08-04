@@ -34,7 +34,7 @@ function Weather() {
     if (lat && lon) {
       //weatherbit api 50 request per day
       fetch(
-        `http://api.weatherbit.io/v2.0/forecast/daily?lat=${lat}&lon=${lon}&key=030ac77e023543f5a7af9cdda7104d12`
+        `https://api.weatherbit.io/v2.0/forecast/daily?lat=${lat}&lon=${lon}&key=030ac77e023543f5a7af9cdda7104d12`
       )
         .then((resp) => resp.json())
         .then((res) => {
