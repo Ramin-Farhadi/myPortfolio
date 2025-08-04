@@ -1,7 +1,8 @@
 .projSecContainer {
   position: relative;
   width: 100%;
-  height: 200px;
+  height: 100%;
+  padding-bottom: 50px;
   background-color: #050d12;
 }
 

@@ -34,7 +34,7 @@ function Weather() {
     if (lat && lon) {
       //weatherbit api 50 request per day
       fetch(
-        `https://api.weatherbit.io/v2.0/forecast/daily?lat=${lat}&lon=${lon}&key=8bbbf1c1b9ff4eb39a3c6bcc7e0165ed`
+        `http://api.weatherbit.io/v2.0/forecast/daily?lat=${lat}&lon=${lon}&key=030ac77e023543f5a7af9cdda7104d12`
       )
         .then((resp) => resp.json())
         .then((res) => {
@@ -42,7 +42,9 @@ function Weather() {
           setWeatherData(res);
           // console.log(res);
         })
-        .catch((reason) => console.log(reason));
+        .catch((reason) => {
+          return console.log(reason);
+        });
     }
   }, [lat, lon]);
 
